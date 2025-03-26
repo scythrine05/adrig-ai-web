@@ -4,7 +4,7 @@ import TextBoxAnimation from "./TextBox";
 
 export default function Content_creation() {
   return (
-    <div>
+    <div className="w-full">
       <Image
         src="/animation-assets/content-creation.png"
         alt="Content-Creation"
