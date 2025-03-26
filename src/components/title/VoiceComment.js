@@ -22,7 +22,7 @@ const ImageCommentToggle = ({ imageSrc, comment }) => {
   };
 
   return (
-    <div className="relative w-95 h-140 border rounded-lg overflow-hidden shadow-lg">
+    <div className="relative w-75 h-140 border rounded-lg overflow-hidden shadow-lg">
       {!showComment ? (
         <div
           className="relative w-full h-full flex items-center justify-center bg-gray-200"

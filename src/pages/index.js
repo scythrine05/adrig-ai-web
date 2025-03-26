@@ -1,20 +1,4 @@
 
-// import Title from "@/components/title";
-// import ImageCommentToggle from "@/components/title/VoiceComment";
-
-// export default function Home() {
-//   return (
-//     <div className="p-10">
-//       <Title title="What We Do" />
-//       {/* Add components here */}
-//       <Title title="What Say Our Clients!" />
-//       <ImageCommentToggle 
-//         imageSrc="/messi.jpg" 
-//         comment="best player of the tournament" 
-//       />
-//     </div>
-//   );
-// }
 import Title from "@/components/title";
 import ImageCommentToggle from "@/components/title/VoiceComment";
 
@@ -33,7 +17,7 @@ export default function Home() {
       <Title title="What We Do" />
       <ServiceGrid />
       <Title title="What Say Our Clients!" />
-      <div className="flex justify-center items-center gap-34 p-4">
+      <div className="flex justify-center items-center gap-34 p-4 mt-2">
         {images.map((item, index) => (
           <ImageCommentToggle 
             key={index} 
