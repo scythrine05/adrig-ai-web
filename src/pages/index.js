@@ -18,6 +18,8 @@
 import Title from "@/components/title";
 import ImageCommentToggle from "@/components/title/VoiceComment";
 
+import ServiceGrid from "@/containers/cardGrid";
+
 export default function Home() {
   const images = [
     { imageSrc: "/messi.jpg", comment: "Best player of the tournament" },
@@ -27,11 +29,10 @@ export default function Home() {
   ];
 
   return (
-    <div className="p-10 flex flex-col items-center">
+    <div className="py-10">
       <Title title="What We Do" />
+      <ServiceGrid />
       <Title title="What Say Our Clients!" />
-      
-      
       <div className="flex justify-center items-center gap-34 p-4">
         {images.map((item, index) => (
           <ImageCommentToggle 
