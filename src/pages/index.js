@@ -1,10 +1,12 @@
 import Title from "@/components/title";
 
+import ServiceGrid from "@/containers/cardGrid";
+
 export default function Home() {
   return (
-    <div className="p-10">
+    <div className="py-10">
       <Title title="What We Do" />
-      {/* Add components here */}
+      <ServiceGrid />
       <Title title="What Say Our Clients!" />
       {/* Add components here */}
     </div>
